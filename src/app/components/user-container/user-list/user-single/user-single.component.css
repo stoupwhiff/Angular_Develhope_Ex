@@ -1,0 +1,9 @@
+.user-single {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 20px 1px 20px;
+    background: orange;
+    border: 1px solid orangered;
+    margin: 5px;
+}

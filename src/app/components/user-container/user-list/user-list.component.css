@@ -1,0 +1,11 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 5px;
+    background: lightgreen;
+    border: 1px solid green;
+    height: 100%;
+}

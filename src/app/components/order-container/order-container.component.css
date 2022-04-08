@@ -1,0 +1,11 @@
+.order-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    background: palevioletred;
+    border: 1px solid red;
+    padding: 1rem;
+}
