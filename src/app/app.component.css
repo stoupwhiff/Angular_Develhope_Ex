@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.app-component {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background: lightgrey;
+    border: 1px solid gray;
+    padding: 2px;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
