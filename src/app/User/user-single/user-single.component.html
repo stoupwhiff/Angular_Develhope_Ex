@@ -1,4 +1,10 @@
-<ul *ngFor="let user of users; let last = last">
+<ul 
+[ngClass]="{
+    'border-info': user.role == 'staff',
+    'border-warning': user.role == 'admin',
+    'border-danger': user.role == 'manager'
+ }"
+*ngFor="let user of users; let last = last">
     <li><img src="{{ user.profilePhotoUrl }}"></li>
     <li>ID: {{ user.id }}</li>
     <li>Name: {{ user.name }}</li>

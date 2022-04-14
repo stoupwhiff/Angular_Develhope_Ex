@@ -3,9 +3,11 @@ ul {
     align-items: center;
     list-style: none;
     gap: 1rem;
+    border: 1px solid;
 }
 
 img {
     width: 150px;
     max-height: 150px;
 }
+
