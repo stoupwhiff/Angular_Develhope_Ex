@@ -1,0 +1,12 @@
+<img width="30%" src="{{ user.profilePhotoUrl }}">
+<p>ID: {{ user.id }}</p>
+<p>Name: {{ user.name }}</p>
+<p>Surname: {{ user.surname }}</p>
+<p>Gender: {{ user.gender }}</p>
+<p>Age: {{ user.age }}</p>
+<p>Birth: {{ user.dateOfBirth | date: "d MMM y" }}</p>
+<p style="padding-left: 30px;">Città: {{ user.address.city }}</p>
+<p style="padding-left: 30px;">Via: {{ user.address.street }}</p>
+<p style="padding-left: 30px;">Cap: {{ user.address.postalCode }}</p>
+<p>Posizione: {{ user.role }}</p>
+<p>Username: {{ user.username }}</p>
