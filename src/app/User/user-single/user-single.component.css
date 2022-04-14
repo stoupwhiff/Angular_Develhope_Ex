@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+img {
+    width: 150px;
+    max-height: 150px;
+}
+
+button {
+    height: 20px;
+}
