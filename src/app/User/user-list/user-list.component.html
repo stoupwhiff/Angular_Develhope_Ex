@@ -1,4 +1,4 @@
 <div *ngFor="let user of users; let last = last">
-    <app-user-single [user]="user"></app-user-single>
+    <app-user-single (removed)="removeUser($event)" [user]="user"></app-user-single>
     <hr *ngIf="!last">
 </div>
