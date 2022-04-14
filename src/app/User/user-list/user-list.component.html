@@ -1,4 +1,7 @@
-<div *ngFor="let user of users; let last = last">
-    <app-user-single (removed)="removeUser($event)" [user]="user"></app-user-single>
-    <hr *ngIf="!last">
+<div *ngIf="users.length > 0; else noUsers">
+    <app-user-single (removed)="removeUser($event)" [users]="users"></app-user-single>
 </div>
+
+<ng-template #noUsers>
+    <p>Non sono presenti Utenti</p>
+</ng-template>
