@@ -1,5 +1,5 @@
-export enum Roles {staff = "staff", student = "student", manager = "manager", admin = "admin"}
-export enum Genders {male = "male", female = "female", other = "other"}
+export enum Role {STAFF = "staff", STUDENT = "student", MANAGER = "manager", ADMIN = "admin"}
+export enum Gender {MALE = "male", FEMALE = "female", OTHER = "other"}
 
 export interface Address {
     city: string,
@@ -14,10 +14,10 @@ export interface User {
     age: number,
     dateOfBirth: string,
     address: Address,
-    role: Roles, // Ruoli possibili: 'staff', 'student', 'manager', 'admin'
+    role: Role, // Ruoli possibili: 'staff', 'student', 'manager', 'admin'
     username: string,
     profilePhotoUrl: string,
-    gender: Genders // Generi possibili: 'male', 'female', 'other'
+    gender: Gender // Generi possibili: 'male', 'female', 'other'
 }
 
 
